@@ -1,0 +1,610 @@
+
+*{
+	margin:0;
+	}
+
+	html,body{
+		font-family: 'Raleway',sans-serif;	
+		height: 100%;
+		}
+
+	.page-wrap {
+	  min-height: 100%;
+	  margin-bottom: -60px; 
+		}
+
+	.page-wrap:after {
+	  content: "";
+	  display: block;
+		}
+
+	.footer, .page-wrap:after {
+		height: 60px; 
+		background-color: #0D192B;
+		text-align: center;
+		}
+
+	footer ul li{
+			display: inline;
+		}
+		
+
+	#footIm{
+			margin-top: 1.6%;
+			margin-left: 5%;
+			margin-right: 5%;
+			max-width: 5%;
+		}
+
+
+
+/*First Page*/
+
+	#front{
+		background-color: #0D192B;
+		position: relative;
+		width: 100%;
+		height: 100%;
+		color: #fff;
+		z-index: 0;
+	}
+
+	#logo{
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 15%;
+		padding-bottom: 15%;
+		max-width: 25%;
+		z-index: 1;
+	}
+
+	#arrow{
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 4%;
+		margin-bottom: 5%;
+		z-index: 1;
+	}
+
+	#UX{
+		float: right;
+		font-weight: 400;
+		margin-right: 20%;
+		padding-top: 24%;
+		font-size: 1.5em;
+		text-transform: uppercase;
+		z-index: 1;
+
+	}
+
+	#FE{
+		float:left;
+		font-weight: 400;
+		margin-left: 20%;
+		padding-top: 24%;
+		font-size: 1.5em;
+		text-transform: uppercase;
+		z-index: 1;
+
+	}
+
+	
+
+
+/*ABOUT ME*/
+
+	#container-1{
+		padding-top: 15%;
+		height: 500px;	
+		color: #fff;
+	}
+
+	#AM{
+		background: rgb(9, 193, 132); 
+    	background: rgba(9, 193, 132, .7);
+		height:300px;
+		width:500px;
+		float: right;
+		margin-right: 15%;
+		margin-top: -2%;
+		position: relative;
+		z-index: 1;
+		padding: 2%;
+		text-align: center;	
+	}
+
+	#AM h2{
+		font-size: 4em;
+		margin-top: 2%;
+	}
+
+	#sum{
+		padding-top: 10%;
+		line-height: 200%;
+		font-size: 1.2em;	
+	}
+
+
+	#Me{
+		margin-left: 6%;
+		max-width: 50%;
+		margin-top: 2%;
+		float: left;
+		z-index: 0;
+		position: absolute;
+		
+	}
+
+
+/**/
+.container-2{
+	margin-top: 10%;
+	height:100%;
+	overflow: auto;
+	color: #fff;
+}
+
+	#process{
+		text-transform: uppercase;
+		background: rgb(9, 193, 132); 
+    	background: rgba(9, 193, 132, .7);
+		position: relative;
+		margin: auto;
+		max-width: 33%;
+		z-index: 1;
+		padding: 2%;
+		font-weight: 400;
+		letter-spacing: 3px;
+		text-align: center;
+	}
+
+
+	.group{
+		width: 500px;
+		height: 500px;
+		position: absolute;
+		margin-left: 8%;
+		margin-top: 5%;
+	}
+
+	
+
+	#moto{
+		position: relative;
+		text-align: center;
+		margin-left: 33%;
+		max-width: 30%;
+		margin-top: 25%;
+		line-height: 200%;
+		font-size: 2em;
+		letter-spacing: 3px;
+		font-weight: 400;
+		color:#000;
+		z-index: 1;
+	}
+
+	span{
+		color: #fff;
+		background-color: #0D192B;
+		padding: 3%;
+	} 
+
+	.repeat {
+		  margin-left: 10%;
+		  margin-top:-78%;
+		  font-size: 10px;
+		  position: relative;
+		  text-indent: -9999em;
+		  border-top: 1.1em solid rgba(13, 25, 43, 0.2);
+		  border-right: 1.1em solid rgba(13, 25, 43, 0.2);
+		  border-bottom: 1.1em solid rgba(13, 25, 43, 0.2);
+		  border-left: 1.1em solid #0D192B;
+		  -webkit-transform: translateZ(0);
+		  -ms-transform: translateZ(0);
+		  transform: translateZ(0);
+		  -webkit-animation: load8 2s infinite linear;
+		  animation: load8 2s infinite linear;
+		  z-index: 0;
+	}
+
+
+	.repeat, .repeat:after {
+	  border-radius: 50%;
+	  width: 35em;
+	  height: 35em;
+	}
+
+	@-webkit-keyframes load8 {
+	  0% {
+	    -webkit-transform: rotate(0deg);
+	    transform: rotate(0deg);
+	  }
+	  100% {
+	    -webkit-transform: rotate(360deg);
+	    transform: rotate(360deg);
+	  }
+	}
+	@keyframes load8 {
+	  0% {
+	    -webkit-transform: rotate(0deg);
+	    transform: rotate(0deg);
+	  }
+	  100% {
+	    -webkit-transform: rotate(360deg);
+	    transform: rotate(360deg);
+	  }
+	}
+
+
+	#fesum{
+		text-align: center;
+		
+		max-width: 25%;
+		margin-top: 5%;
+		margin-left: 60%;
+		background-color:#0D192B;
+    	padding: 3%;
+    	font-size: 1.5em;
+	}
+
+	#uxsum{
+		text-align: center;
+		margin-top: 10%;
+		margin-left: 60%;
+		max-width: 25%;
+		background-color:#0D192B;
+    	padding: 3%;
+    	font-size: 1.5em;
+
+	}
+
+	#skills{
+	height:100%;
+	overflow: auto;
+	color: #fff;
+	}
+
+	#S-title{
+		background: rgb(9, 193, 132); 
+    	background: rgba(9, 193, 132, .7);
+		margin: auto;
+		position: relative;
+		max-width: 13%;
+		text-align: center;
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+
+
+	#S-title h1{
+		font-weight: 400;
+		letter-spacing: 3px;
+		padding: 10%;
+	}
+
+
+	#skills ul{
+		text-align: center;
+		margin-left:-3%;
+		padding-top: 10%;
+	}
+
+	#skills li{
+		display: inline;
+		margin: 8%;
+	}
+
+	#skills h1{
+		font-weight: 400;
+		letter-spacing: 3px;
+		text-align: center;
+		padding-top: 10%;
+	}
+
+	#feIm{
+		max-width: 15%;	
+	}
+
+	#FE-S{
+		width: 40%;
+		margin-left: 10%;
+		height: 400px;
+		float: left;
+		position: relative;
+		background-color:#0D192B;
+    	margin-bottom: 5%;
+	}
+
+	#UX-S{
+		width:39%;
+		margin-right:10%; 
+		height: 400px;
+		float: right;
+		position: relative;
+		background: rgb(9, 193, 132); 
+    	background: rgba(9, 193, 132, .7);
+    	margin-bottom: 5%;
+
+	}
+
+
+	
+
+/*mobile*/	
+
+@media screen and (max-width: 800px){
+
+
+	#arrow{
+		display:none;
+	}
+
+	#front{
+		margin-bottom: -15%;
+	}
+
+	#logo{
+		position: relative;
+		width: 100%;
+		margin: auto;
+		max-width: 50%;
+	}
+
+	#UX{
+		display: none;
+
+	}
+
+	#FE{
+		display: none;
+
+	}
+
+	#AM{
+		position: relative;
+		width: 100%;
+		margin: auto;	
+	}
+
+	#sum{
+		padding-left: 5%;
+	}
+
+	#Me{
+		position: relative;
+		max-width: 100%;
+		margin: auto;	
+	}
+
+	.container-2{
+		width: 100%;
+		height: 100%;
+	}
+
+	#process{
+		padding-top: 10%;
+		padding-bottom: 10%;
+		position: relative;
+		max-width: 100%;
+		margin: auto;
+		font-size: 2em;
+		
+	}
+
+	.group{
+		width:500px;
+		height: 400px;
+		margin-left: 17%;
+	}
+
+	#moto{
+		padding-top: 20%;
+		position: relative;
+		max-width: 100%;
+		margin: auto;
+		font-size: 1.5em;	
+
+	}
+
+	.repeat {
+
+		position: relative;
+		max-width: 100%;
+		margin: auto;
+		margin-top: -57%;		
+	}
+
+	.repeat, .repeat:after {
+	  width: 25em;
+	  height: 25em;
+	}
+
+
+	#fesum{
+		max-width: 60%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 65%;
+		font-size: 1.2em;
+			
+	}
+
+	#uxsum{
+		max-width: 60%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 10%;
+		font-size: 1.2em;
+
+	}
+
+	#S-title{
+		position: relative;
+		max-width: 100%;
+		margin: auto;
+	}
+
+	#FE-S{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		margin: auto;
+		font-size: 0.8em;
+		padding: top:5%;
+		padding-bottom: 7%;
+	}
+
+	#skills{
+		height: 100%;
+		margin-top: 15%;
+	}
+
+	#UX-S{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		margin: auto;
+		font-size: 0.8em;
+		padding: top:5%;
+		padding-bottom: 7%;
+		}
+
+		.footer ul{
+		margin-right: 7%;
+	}
+
+	#footIm{
+		margin-top: 5%;
+		max-width:7%;
+	}
+
+
+}
+
+@media screen and (max-width: 700px){
+
+	.group{
+		margin-left: 8%;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+
+	.group{
+		width: 450px;
+	}
+
+	.repeat{
+		margin-top: -62%;	
+	}
+	#fesum{
+		margin-top: 78%;
+	}
+
+	#footIm{
+		margin-top: 10%;
+		max-width:10%;
+	}
+
+
+
+}
+
+@media screen and (max-width: 500px){
+
+
+
+	#process{
+		font-size: 1.5em;
+	}
+
+	.group{
+		width:350px;
+		height: 350px;
+		margin-left: 10%;	
+	}
+
+	.repeat {
+		margin-top: -80%;		
+	}
+
+	.repeat, .repeat:after {
+	  width: 25em;
+	  height: 25em;
+	}
+
+
+	#fesum{
+		max-width: 80%;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: 90%;
+			
+	}
+
+	#uxsum{
+		max-width: 80%;
+		margin-right: 10%;
+		margin-left: 10%;
+
+	}
+
+
+}
+
+@media screen and (max-width: 400px){
+
+
+
+
+	#AM h2{
+		font-size: 2.5em;
+	}
+
+	.group{
+		width:300px;
+		height: 300px;
+		margin-left: 1%;
+	}
+
+	#moto{
+		font-size: 1.2em;
+	}
+
+	.repeat {
+		margin-top: -76%;		
+	}
+
+	.repeat, .repeat:after {
+	  width: 20em;
+	  height: 20em;
+	}
+
+	#fesum{
+		margin-top: 100%;
+	}
+
+	#footIm{
+		margin-top: 13%;
+		max-width:15%;
+	}
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
